@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    height: 100vh;
+}
+.left{
+    background-color: #5e95ed;
+    opacity:1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.right{   
+
+}
+#LOMG{
+    margin-top: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    transition: .6s;
+    width: 400px;
+    height: 300px;
+    margin-top: 4rem;
+}
+#LOMG:hover{
+    padding-top: 9rem;
+    transform: scale(1.1);
+ 
+}
+#h1style{
+    color: white;
+    font-size: 4rem;
+    opacity: 0.6;
+}
